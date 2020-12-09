@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+
+  .header{
+    height: 100px;
+    background-color: #f88808;
+  }
+
+  .historia{
+
+    background-color: rgba(158, 185, 179, 0.671);
+    color: #000000;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgb(0, 0, 0);
+    
+    margin-right: 80px;
+    margin-left:  80px ;
+    margin-bottom:100px;
+  }
+
+  h2{
+      text-align: center;
+  }
+
+  .txt{
+    font-size: 25px;
+    margin: 100px;
+  }

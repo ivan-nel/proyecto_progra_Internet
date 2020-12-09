@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<link  rel="icon"   href="imagenes/escudo.jpg" type="image/jpg" />
+
+<head>    
+    <title>Galeria </title>  
+</head>
+
+<body>
+    <link href="css/estilos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link href="https://file.myfontastic.com/eALTJnZ6FFPMrL5ut9DGH8/icons.css" rel="stylesheet">
+
+    <header class="header">
+      <div class="contenedor">
+        <h1 class="logo"> Info-Magdalena <br>   </h1>
+        <span class="icon-menu" id="btn-menu"></span>
+        <nav class="nav" id="nav">
+          <ul class="menu">
+            <li class="menu__item"><a href="index.html" class="menu__link select">Inicio</a></li>
+            <li class="menu__item"><a href="historia.html" class="menu__link">Historia</a></li>
+            <li class="menu__item"><a href="galeria.html" class="menu__link">Galeria</a></li>
+
+          </ul>
+        </nav>
+      </div> 
+    </header>
+
+<div class="container gallery-container">
+
+    <h1> Galeria de Magdalena </h1>
+    
+  <ul class="galeria">
+    <li><a href="#img1"><img src="imagenes/opaloiglesia.jpg"></a></li>
+    <li><a href="#img2"><img src="imagenes/pano.jpg"></a></li>
+    <li><a href="#img3"><img src="imagenes/mgd.jpg"></a></li>
+    <li><a href="#img4"><img src="imagenes/castillos.jpg"></a></li>
+  </ul>
+
+  <div class="modal" id="img1">
+    <h3>Opalos </h3>
+    <div class="imagen">
+      <a href="#img4">&#60;</a>
+      <a href="#img2"><img src="imagenes/opaloiglesia.jpg"></a>
+      <a href="#img2">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+  
+  <div class="modal" id="img2">
+    <h3>Vista aerea del municipio</h3>
+    <div class="imagen">
+      <a href="#img1">&#60;</a>
+      <a href="#img3"><img src="imagenes/pano.jpg"></a>
+      <a href="#img3">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+  
+  <div class="modal" id="img3">
+    <h3>Letrero Municipal</h3>
+    <div class="imagen">
+      <a href="#img2">&#60;</a>
+      <a href="#img4"><img src="imagenes/mgd.jpg"></a>
+      <a href="#img4">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+  
+  <div class="modal" id="img4">
+    <h3>Fuegos artificiales </h3>
+    <div class="imagen">
+      <a href="#img3">&#60;</a>
+      <a href="#img1"><img src="imagenes/castillos.jpg "></a>
+      <a href="#img1">></a>
+    </div>
+    <a class="cerrar" href="">X</a>
+  </div>
+  
+    
+
+</div>
+
+<footer class="footer">
+  <div class="contenedor">
+    <div class="social">
+
+      <a href="https://www.facebook.com/places/Cosas-para-hacer-en-Municipio-de-Magdalena-Jalisco/112008438815963" class="icon-facebook"></a>
+      <a href="https://www.instagram.com/magdalena.jalisco/" class="icon-instagram"></a>
+      <a href="https://www.google.com/maps/place/Magdalena,+Jal./@20.9124252,-103.9956308,14z/data=!3m1!4b1!4m5!3m4!1s0x842641db45a3149d:0xcde8f615c7cf8ff!8m2!3d20.9102762!4d-103.9695127" class="icon-ubicacion"></a>
+      
+    </div>
+    <p class="copy">&copy; Programacion para Internet - CUCEI  </p>
+  </div>
+</footer>
+<script src="js/menu.js"></script>
+</body>
+</html>
